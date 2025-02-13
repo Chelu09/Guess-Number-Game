@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="guess_number.js" defer></script>
+</head>
+<body>
+    <h1>Guess the number</h1>
+
+    <p>Alege un numar intre 1 si 100</p>
+    <p>Incearca sa ghicesti in 10 incercari sau mai putin</p>
+    <p>O sa ai un indiciu daca numarul este mai mare sau mai mic decat cel scris</p>
+
+    <div class="form">
+        <label for="GuessField">Ghiceste numarul</label>
+        <input type="text" id="GuessField" class="GuessField">
+        <input type="submit" value="Submit guess" class="GuessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>
